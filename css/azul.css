@@ -1,0 +1,14 @@
+body{
+  background:url("../img/cielo.jpg");
+  background-size: cover;
+}
+
+
+#logo{
+  background-color: #3F91F3;
+}
+
+
+#menuPrincipal :hover{
+  background-color: #3F91F3;
+}

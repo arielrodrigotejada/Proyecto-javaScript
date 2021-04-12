@@ -1,0 +1,14 @@
+body{
+  background:url("../img/rojo.jpg");
+  background-size: cover;
+}
+
+
+#logo{
+  background-color: #DA2A06;
+}
+
+
+#menuPrincipal :hover{
+  background-color: #DA2A06;
+}

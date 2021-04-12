@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pagina Proyecto</title>
+                              <!-- Importo Css Personalizado-->
+    <link rel="stylesheet" href="css/proyecto.css">
+    <link id="tema" rel="stylesheet" href="css/verde.css">
+
+                              <!-- Importo Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+                              <!-- Importo MomentJS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.js"></script>
+                              <!-- Importo JQuery UI-->
+    <script src="C:/Users/Living/Desktop/Proyecto de curso rodri/js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+                              <!-- Importo JS Principal-->
+    <script src="js\main.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="selectorTemas">
+      <div id="temaVerde">
+
+      </div>
+
+      <div id="temaRojo">
+
+      </div>
+
+      <div id="temaAzul">
+
+      </div>
+
+
+
+    </div>
+    <div id="zonaPrincipal">
+    <header>
+      <div id="logo">
+        <h1>Proyecto JS</h1>
+      </div>
+      <div class="clearFix">
+      </div>
+      <nav>
+        <ul id="menuPrincipal">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="#">CALCULADORA</a></li>
+          <li><a href="reloj.html">RELOJ</a></li>
+          <li><a href="about.html">SOBRE MI</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="divSlider">
+      <div class="slider">
+        <div><img src="img/hojas.jpg" title="hojas"></div>
+        <div><img src="img/rojo.jpg" title="rojo"></div>
+        <div><img src="img/cielo.jpg" title="cielo"></div>
+      </div>
+    </div>
+    <section>
+      <div id="divArticulos" >
+
+      </div>
+    </section>
+    <aside>
+        <div class="divAside">
+          <div class="tituloAside">
+            <span>¿Quien soy?</span>
+          </div>
+          <img src="img\caracol.jpg" id="imagenCaracol">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div id="divLogin">
+          <div class="tituloAside">
+            <span>Iniciar sesion</span>
+          </div>
+          <form id="formularioLogin"  method="post" onsubmit="none">
+          <label for="Nombre">Usuario</label>
+          <input id="nombreUsuario" type="text" name="Nombre" value=""><br><br>
+          <label for="Mail">Mail</label>
+          <input id="mailUsuario" type="text" name="Mail" value=""><br><br>
+          <label for="Contrasenia">Contraseña</label>
+          <input id="contrasenia" type="text" name="Contrasenia" value=""><br><br>
+          <input type="submit" id="botonUsuario" name="botonUsuario" value="Enviar">
+          </form>
+
+        </div>
+    </aside>
+    <div class="clearFix">
+    </div>
+    <footer>
+      <a href="#" class="subir">Ir arriba</a>
+
+    </footer>
+
+  </body>
+</html>
